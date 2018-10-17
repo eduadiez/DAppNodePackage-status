@@ -1,0 +1,12 @@
+{
+    "HTTPEnabled": true,
+    "HTTPHost": "0.0.0.0",
+    "APIModules": "admin,debug",
+    "DataDir": "/data",
+    "WhisperConfig": {
+        "Enabled": true,
+        "EnableMailServer": true,
+        "LightClient": false,
+        "MailServerPassword": "status-offline-inbox"
+    }
+}

@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+    status.public.dappnode.eth:
+        image: 'status.public.dappnode.eth:0.1.1'
+        build: ./build
+        volumes:
+            - 'data:/data'
+        ports:
+            - '30313:30303'
+            - '30313:30303/udp'
+            - '30314:30314/udp'
+volumes:
+    data: {}

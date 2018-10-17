@@ -1,0 +1,31 @@
+{
+  "name": "status.public.dappnode.eth",
+  "version": "0.1.1",
+  "description": "status-go is an underlying part of Status - a browser, messenger, and gateway to a decentralized world. This DAppNodePackage is based on release v0.16.1",
+  "avatar": "status.png",
+  "type": "service",
+  "image": {
+    "path": "",
+    "hash": "",
+    "size": "",
+    "restart": "always",
+    "volumes": [
+      "data:/data"
+    ],
+    "ports": [
+      "30313:30303",
+      "30313:30303/udp",
+      "30314:30314/udp"
+    ],
+    "environment": [
+      "STATUSD_MODE=RELAY"
+    ],
+    "keywords": [
+      "Status",
+      "Whisper",
+      "Ethereum"
+    ]
+  },
+  "author": "Eduardo Antuña (eduadiez)",
+  "license": ""
+}

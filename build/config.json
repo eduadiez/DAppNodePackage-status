@@ -1,0 +1,6 @@
+{
+    "HTTPEnabled": true,
+    "HTTPHost": "0.0.0.0",
+    "APIModules": "admin,debug",
+    "DataDir": "/data"
+}
